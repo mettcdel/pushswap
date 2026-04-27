@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   flag.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ademirel <ademirel@student.42istanbul.com.tr> + +:+       +#+        */
+/*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 03:08:28 by ademirel          #+#    #+#             */
-/*   Updated: 2026/04/08 03:09:38 by ademirel         ###   ########.fr       */
+/*   Updated: 2026/04/24 02:24:56 by mcodel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	return (0);
 }
 
-static void	already_have(int val, t_cnt *cnt, char **sep)
+static void	 already_have(int val, t_cnt *cnt, char **sep)
 {
 	if (val > 1)
 	{

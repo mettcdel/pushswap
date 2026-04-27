@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ademirel <ademirel@student.42istanbul.com.tr> + +:+       +#+        */
+/*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 03:18:48 by ademirel          #+#    #+#             */
-/*   Updated: 2026/04/08 03:18:49 by ademirel         ###   ########.fr       */
+/*   Updated: 2026/04/24 01:58:00 by mcodel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
