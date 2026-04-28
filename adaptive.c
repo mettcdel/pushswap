@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   adaptive.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ademirel <ademirel@student.42istanbul.com.tr> + +:+       +#+        */
+/*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 02:57:53 by ademirel          #+#    #+#             */
-/*   Updated: 2026/04/08 03:02:33 by ademirel         ###   ########.fr       */
+/*   Updated: 2026/04/28 17:48:03 by mcodel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

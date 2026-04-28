@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
+/*   By: ademirel <ademirel@student.42istanbul.com.tr>+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 03:18:48 by ademirel          #+#    #+#             */
-/*   Updated: 2026/04/24 01:58:00 by mcodel           ###   ########.fr       */
+/*   Updated: 2026/04/28 16:48:24 by ademirel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ static void	null_0(t_stx**a, t_stx **b, t_cnt *cnt)
 	*a = NULL;
 	*b = NULL;
 	cnt->dr = 0;
-	cnt->chunk_val = 0;
 	cnt->b_cnt = 0;
 	cnt->a_cnt = 0;
 	cnt->flag_w = 0;
@@ -71,7 +70,7 @@ int	main(int argc, char **argv)
 	argc = argc - (&cnt)->flag_w;
 	argv = argv + (&cnt)->flag_w;
 	if (argc < 2)
-		exit(1);
+		exit(0);
 	printer(&a, &cnt, argv);
 	set_disorder(&a, &cnt);
 	if ((&cnt)->dr == 0)

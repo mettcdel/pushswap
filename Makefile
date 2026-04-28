@@ -5,8 +5,8 @@ CFLAGS      = -Wall -Wextra -Werror
 SRCS        = main.c \
               adaptive.c \
 			  bench.c \
-			  chunk2.c \
-			  chunkbased.c \
+			  range2.c \
+			  rangebased.c \
 			  flag.c \
 			  free.c \
 			  ft_atol.c \
