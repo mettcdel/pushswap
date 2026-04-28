@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   medium.c                                           :+:      :+:    :+:   */
+/*   base_medium.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 21:07:23 by mcodel            #+#    #+#             */
-/*   Updated: 2026/04/27 21:08:14 by mcodel           ###   ########.fr       */
+/*   Updated: 2026/04/28 13:14:57 by mcodel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,7 +102,7 @@ static void	push_back_to_a(t_stx **stack_a, t_stx **stack_b, t_cnt *info)
 	}
 }
 
-void	butterfly_sort(t_stx **stack_a, t_stx **stack_b, t_cnt *info)
+void	chunk_sort(t_stx **stack_a, t_stx **stack_b, t_cnt *info)
 {
 	int		offset;
 	t_stx	*top;

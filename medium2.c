@@ -6,7 +6,7 @@
 /*   By: mcodel <mcodel@student.42istanbul.com.tr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 21:09:37 by mcodel            #+#    #+#             */
-/*   Updated: 2026/04/27 21:12:59 by mcodel           ###   ########.fr       */
+/*   Updated: 2026/04/28 13:21:42 by mcodel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	get_max_position(t_stx **stack_b, t_cnt *info)
 	}
 	return (0);
 }
-/ int calculate_sqrt(int number)
+int	f_sqrt(int number)
 {
 	int	root;
 
